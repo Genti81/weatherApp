@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Images">
+    <File Path="Images\AppIcon.png" Url="Images/AppIcon.png" ReplaceContent="TRUE" />
+    <File Path="Images\sunny1.jpeg" Url="Images/sunny1.jpeg" ReplaceContent="TRUE" />
+    <File Path="Images\sunny2.jpg" Url="Images/sunny2.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\windy.jpg" Url="Images/windy.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\partly_rain.jpg" Url="Images/partly_rain.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\partly_rain1.jpg" Url="Images/partly_rain1.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\partly_sunny.jpg" Url="Images/partly_sunny.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\rain1.jpg" Url="Images/rain1.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\rainm.jpg" Url="Images/rainm.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\sunny.jpg" Url="Images/sunny.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\pic3d.jpg" Url="Images/pic3d.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\sky.jpg" Url="Images/sky.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\square.jpg" Url="Images/square.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\white_3d.jpg" Url="Images/white_3d.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\25975_600.jpg" Url="Images/25975_600.jpg" ReplaceContent="TRUE" />
+    <File Path="Images\invitation-card.jpg" Url="Images/invitation-card.jpg" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

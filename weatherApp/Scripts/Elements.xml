@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.min.js" Url="Scripts/jquery-3.1.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\skycons.js" Url="Scripts/skycons.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\skycons.min.js" Url="Scripts/skycons.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment-with-locales.min.js" Url="Scripts/moment-with-locales.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.min.js" Url="Scripts/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\bootstrap.js" Url="Scripts/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\moment-timezone.js" Url="Scripts/moment-timezone.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.text3d.js" Url="Scripts/jquery.text3d.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

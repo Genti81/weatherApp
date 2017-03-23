@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="Images\" Type="ElementManifest" />
+    <ProjectItemFile Source="AppIcon.png" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="sunny1.jpeg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="sunny2.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="windy.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="partly_rain.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="partly_rain1.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="partly_sunny.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="rain1.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="rainm.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="sunny.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="pic3d.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="sky.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="square.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="white_3d.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="25975_600.jpg" Target="Images\" Type="ElementFile" />
+    <ProjectItemFile Source="invitation-card.jpg" Target="Images\" Type="ElementFile" />
+  </Files>
+</ProjectItem>
