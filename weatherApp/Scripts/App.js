@@ -13,7 +13,8 @@ $(document).ready(function () {
         dataType: 'json',
         success: function (data) {
             var nowAdress = data.results[0].address_components[1].long_name;
-            $('#tidzon').html(nowAdress + " " + data.results[0].address_components[0].long_name);
+            var loc_name = data.results[0].address_components[0].long_name;
+            $('#tidzon').html(nowAdress + " " + loc_name);
         },
         error: function() {
             alert("error");
@@ -27,8 +28,6 @@ $(document).ready(function () {
         success: function (data) {
             moment.locale("sv");
 
-            //if ();
-            
 
             var skycons = new Skycons({ "color": "#FFD700" });
             var todayIcon = data.currently.icon;
