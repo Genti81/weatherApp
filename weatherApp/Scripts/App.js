@@ -7,8 +7,18 @@ $(document).ready(function () {
     var longi = 18.023431;
     var language = "en";
 
-
-
+    $.ajax({
+        url: "https://maps.googleapis.com/maps/api/geocode/json?latlng=59.345237,18.023431&key=AIzaSyAo0_u3FX2momYaZRXxcxgtp2Vkt-KJFO8",
+        type: 'GET',
+        dataType: 'json',
+        success: function (data) {
+            var nowAdress = data.results[0].address_components[1].long_name;
+            $('#tidzon').html(nowAdress + " " + data.results[0].address_components[0].long_name);
+        },
+        error: function() {
+            alert("error");
+        }
+        });
     jQuery.ajax({
         url: url + apiKey + "/" + lati + "," + longi + "?callback=?&units=" + unit + "&lang=" + language,
         type: 'GET',
@@ -38,8 +48,7 @@ $(document).ready(function () {
             $('#summaryToday').html(data.currently.summary);
             $('#humidity').html("humidity: " + data.currently.humidity + "%");
             $('#summary_hourly').html(data.currently.summary);
-            $('#tidzon').html(data.timezone);
-
+        
              //Forecast
             var day1_icon = data.daily.data[0].icon;
             $('#Temp1').html(data.daily.data[0].temperatureMin.toFixed(0) + "&#8451" + "/" + data.daily.data[0].temperatureMax.toFixed(0) + "&#8451");
